@@ -19,7 +19,7 @@ function Login() {
          <h1>Google Login</h1>
             
             <GoogleLogin
-            clientId="674937423242-rn4d54buti5q7kv5ckpu4hrp97unf8be.apps.googleusercontent.com"      
+            clientId="969612057847-19hsm707ru00q2df4fb63f92da094phf.apps.googleusercontent.com"      
             onSuccess={loginSuccess}
             onFailure={loginFailure}
             cookiePolicy={'single_host_origin'}
