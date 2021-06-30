@@ -12,7 +12,7 @@ function HomePage() {
                 <h3>Get the latest on our COVID-19 response</h3>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', width: '15vw', float: 'right', marginRight: '2vw', justifyContent: 'space-between' }}>
-              <strong>  <p>Switch to hosting</p></strong>
+                <strong><p>Switch to hosting</p></strong>
                 <mi.LanguageRounded style={{ color: 'black' }} />
                 <Paper style={{ borderRadius: '20px', padding: '5px' }}>
                     <mi.MenuRounded />
@@ -23,7 +23,7 @@ function HomePage() {
                 <strong> Places to stay</strong>
             </p>
 
-            <Paper className="card" style={{ borderRadius: '60px' }} elevation={5}>
+            <Paper className="card" style={{ borderRadius: '60px' ,cursor:'pointer'}} elevation={5}>
                 <div className="card-content">
                     <ul style={{ listStyle: 'none' }}>
                         <li>
@@ -78,7 +78,7 @@ function HomePage() {
             </Paper>
 
             <div className="content">
-                <h2 style={{color:'whitesmoke'}}>Go Near</h2>
+                <h2 style={{ color: 'whitesmoke' }}>Go Near</h2>
             </div>
 
 
