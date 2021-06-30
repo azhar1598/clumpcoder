@@ -11,7 +11,8 @@ function Login() {
     console.log(response)
        history.push('/homepage')
    }
-   const loginFailure=()=>{
+   const loginFailure=(response)=>{
+       console.log(response)
        alert('Some Error')
    }
     return (
