@@ -8,6 +8,7 @@ function Login() {
     const history=useHistory()
    const loginSuccess=(response)=>{
     
+    console.log(response)
        history.push('/homepage')
    }
    const loginFailure=()=>{
