@@ -1,6 +1,5 @@
 import React from 'react'
 import './HomePage.css'
-import Image from './assets/image2.jpeg'
 import { Paper } from '@material-ui/core'
 import * as mi from '@material-ui/icons';
 
